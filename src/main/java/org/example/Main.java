@@ -8,7 +8,7 @@ public class Main {
         Student stu = new Student();
         stu.setSubject("zzzz");
         Employee emp = new Employee();
-        emp.setSalary(100000);
+        emp.setSalaryMonthly(100000);
 
     }
 

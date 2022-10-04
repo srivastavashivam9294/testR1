@@ -1,14 +1,14 @@
 package org.example;
 
 public class Employee extends Person {
-    public Integer getSalary() {
-        return salary;
+    public Integer getSalaryMonthly() {
+        return salaryMonthly;
     }
 
-    public void setSalary(Integer salary) {
-        this.salary = salary;
+    public void setSalaryMonthly(Integer salaryMonthly) {
+        this.salaryMonthly = salaryMonthly;
     }
 
-    private Integer salary ;
+    private Integer salaryMonthly;
 
 }
